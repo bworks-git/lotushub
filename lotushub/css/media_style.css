@@ -1,0 +1,131 @@
+
+/************************************************************************************
+smaller than 1100
+*************************************************************************************/
+@media screen and (max-width: 1100px) {      
+.center{width:98%;max-width:100%;}  
+/* Home page */
+#slider2_container{width:98% !important;}
+#slider2_container div{width:100% !important;}
+.hme_pge #slider1_container{width:100% !important;} 
+.hme_pge #slider1_container div{width:100% !important;}
+.hme_pge #slider3_container{width:100% !important;} 
+.hme_pge #slider3_container div{width:100% !important;}
+}
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1024px) {
+	/* Header */
+.head_rht{position:relative;z-index:1;}
+.hresp_icon{display:block;position:absolute;right:10px;top:10px;z-index:3;} .hresp_icon i{color:#00B0F0;font-size:30px;line-height:30px;}
+.hr_menu{display:none;position:absolute;z-index:2;background:#fff;border:1px solid #ccc;right:5px;top:50px;width:200px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.hr_menu:before{content:"";position:absolute;z-index:3;right:5px;top:-23px;border:11px solid transparent;border-color:transparent transparent #ccc transparent;}
+.hr_menu li{font:12px/30px Raleway;display:block;padding:0;border-top:1px solid #ccc;} .hr_menu li:first-child{border:0;}
+.hr_menu li a{font:12px/30px Raleway;display:block;color:#333;}
+.hr_menu li a:hover,.hr_menu li.active a{background:#00B0F0;color:#fff;}
+/* Home page */
+.htestm_lftblk, .htestm_rhtblk{display:block;width:auto;float:none;min-height:0;height:auto;} .htestm_rhtblk{margin:10px 0 0;}
+}
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+/* Home page */
+.hserv_lst li{width:50%;}
+
+}
+/************************************************************************************
+smaller than 900
+*************************************************************************************/
+@media screen and (max-width: 900px) {
+	
+/* inner page */
+.stdicon_lst li{padding-bottom:7px;}
+.std_btmlst li{width:30%;}
+/* career */ 
+.career_banner{height:200px;}
+/* courses */
+.point_lst li{width:47%;}
+}
+/************************************************************************************
+smaller than 800
+*************************************************************************************/
+@media screen and (max-width: 800px) {
+/* Home page */
+ .hm_top_sec{height:auto;}
+.hme_pge .hm_top_banrblk,.hme_pge .hm_top_rhtblk{display:block;width:auto;float:none;margin:0 0 15px;height:200px;}	
+.hme_pge #slider1_container div{height:200px !important;} .hme_pge #slider1_container img{width:100% !important;}
+.hm_top_rhtblk{height:200px !important;overflow:auto;}
+}
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+
+}
+/************************************************************************************
+smaller than 685
+*************************************************************************************/
+@media screen and (max-width: 685px) {
+/* career */ 
+.career_banner{height:200px;background-position:left center;}
+/* courses */
+.servlst_blk aside{display:block;width:auto;margin:0 0 20px;}
+.servlst_blk article{display:block;width:auto;margin:0;}
+}
+/************************************************************************************
+smaller than 600
+*************************************************************************************/
+@media screen and (max-width: 600px) {   
+
+}
+/************************************************************************************
+smaller than 568
+*************************************************************************************/
+@media screen and (max-width: 568px) { 
+.center{width:96%;} 
+/* Footer  */
+.ftop_box{display:block;width:auto;padding:7px 0;} .ftop_box.scal_media{float:none;}
+.ftop_box .title2{color:#333;}
+.ftr_out{text-align:center;}
+.desgby{display:block;float:none;padding:7px 0 0;}
+/* Home page */
+.tesym_slide .desc1{font:12px/15px Raleway;}
+.hserv_lst{overflow:hidden;}
+.hserv_lst li{width:100%;}
+/* inner page */
+.std_btmlst li{width:auto;display:block;padding:0 0 8px;}
+.stdicon_lst li a{min-width:150px;font-size:12px;padding:10px 15px;}
+.stdnt_sec .title1{font:22px/26px Raleway;}
+.stdnt_sec .title2{font:18px/24px Raleway;}
+/* Career page */
+.cntct_blk .lst_blk.two li{display:block;width:auto;}
+/* course page */
+.point_lst li{display:block;width:auto;}
+}
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+/* career */ 
+.career_banner{height:150px;}
+.openings_title{height:auto;}
+.openings_title > i{display:block;float:none;text-align:right;padding-top:5px;}
+}
+/************************************************************************************
+smaller than 380
+*************************************************************************************/
+@media screen and (max-width: 380px) {
+
+}
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+
+
+}
+
